@@ -5,7 +5,7 @@
 To demonstrate the ability of text-to-image generation tools to reproduce an existing image by crafting precise prompts. The goal is to identify key elements within the image and use these details to generate an image as close as possible to the original.
 
 ### Procedure:
-Analyze the Given Image
+1.Analyze the Given Image
 Examine the image carefully, noting key elements such as:
 
 Objects/Subjects – person (portrait in realism)
@@ -15,47 +15,53 @@ Lighting – balanced natural highlights and shadows
 Background – neutral background keeping focus on subject
 Composition – centered figure with calm expression
 Style – classic realism, detailed and lifelike
-Create the Basic Prompt
+
+2.Create the Basic Prompt
 A portrait of a person in classic realism style, sitting in a natural pose with a calm expression.
 
-Refine the Prompt with More Detail
+3.Refine the Prompt with More Detail
 A detailed portrait of a person in classic realism style, with soft natural lighting, muted tones, realistic textures, and a neutral background. The subject has a composed expression and a steady gaze, maintaining focus on the face.
 
-Identify Style and Artistic Influences
+4.Identify Style and Artistic Influences
 To reproduce the image in another style (e.g., Studio Ghibli):
 A Studio Ghibli-inspired portrait of a person, keeping the same pose and calm expression from a realistic painting. The artwork has soft pastel tones, expressive anime-style eyes, painterly hand-drawn textures, and a dreamy whimsical background.
 
-Adjust and Fine-tune
+5.Adjust and Fine-tune
 
 If pose changes → add: "identical pose as original portrait"
 If expression changes → add: "same calm expression as original"
 If background gets noisy → add: "plain dreamy background"
-Generate the Image
+
+6.Generate the Image
 Use the crafted prompt in a tool such as:
 DALL·E (OpenAI)
 Stable Diffusion (Open-source)
 MidJourney (artistic stylization)
-Compare the Generated Image with the Original
+
+7.Compare the Generated Image with the Original
 Assess similarities and differences in color, composition, pose, and expression. Refine prompts if necessary.
-Tools/LLMs for Image Generation
+
+# Tools/LLMs for Image Generation
 DALL·E (OpenAI): Precise realism reproduction.
 Stable Diffusion: Flexible customization and fine control.
 MidJourney: Best for stylized Ghibli/anime transformations.
-Instructions
-Examine the Given Image – note colors, lighting, and subject.
-Write the Basic Prompt – describe only the subject and pose.
-Refine and Add Details – include textures, lighting, colors, and mood.
-Use the Selected Tool – input prompt into AI generator.
-Iterate and Adjust – refine until close to original.
-Save and Document – save both versions for comparison.
-Deliverables
-The Original Image
+
+# Instructions
+1.Examine the Given Image – note colors, lighting, and subject.
+2.Write the Basic Prompt – describe only the subject and pose.
+3.Refine and Add Details – include textures, lighting, colors, and mood.
+4.Use the Selected Tool – input prompt into AI generator.
+5.Iterate and Adjust – refine until close to original.
+6.Save and Document – save both versions for comparison.
+
+# Deliverables
+1.The Original Image
 (Insert chosen realism reference image here)
 
-The Final Generated Image (Ghibli Style)
+2.The Final Generated Image (Ghibli Style)
 (Insert AI-generated Studio Ghibli version here)
 
-Prompts Used
+3.Prompts Used
 
 ### Basic Prompt:
 A portrait of a person in classic realism style, sitting in a natural pose with a calm expression.
@@ -73,7 +79,7 @@ A Studio Ghibli-inspired digital portrait of a person, keeping the same pose and
 Image 1: Original Realism Portrait
 Image 2: Studio Ghibli-Stylized Portrait
 
-![Uploading image.png…]()
+<img width="1033" height="685" alt="image" src="https://github.com/user-attachments/assets/12ad2589-443a-4ad6-b0fe-424531441c67" />
 
 ### Conclusion
 By using detailed and well-crafted prompts, text-to-image generation models can closely reproduce an existing image while also transforming it into a new style (Studio Ghibli).
